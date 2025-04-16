@@ -74,8 +74,8 @@
         gap: 32px;
     }
 
-    .header__menu {
-        margin-left: auto;
+    .header__name {
+        margin-right: auto;
     }
 }
 
