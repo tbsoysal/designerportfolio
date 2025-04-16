@@ -18,6 +18,7 @@
     cursor: pointer;
 }
 
+/* Name */
 .header__name a {
     font-weight: 500;
 }
@@ -26,6 +27,7 @@
     color: var(--hover-gray);
 }
 
+/* menu */
 .header__menu {
     display: flex;
     justify-content: center;
@@ -42,6 +44,7 @@
     color: var(--hover-gray);
 }
 
+/* email button */
 .header__email {
     display: flex;
     justify-content: flex-end;
@@ -61,6 +64,7 @@
     background-color: var(--hover-gray);
 }
 
+/* media queries */
 @media (max-width: 1400px) {
     .header > * {
         flex: unset;
