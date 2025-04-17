@@ -19,8 +19,12 @@
 }
 
 /* Name */
+.header__name {
+    padding: 12px 0px;
+}
+
 .header__name a {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .header__name a:hover {
@@ -36,7 +40,7 @@
 }
 
 .header__menu li {
-    font-weight: 500;
+    font-weight: 600;
     list-style: none;
 }
 

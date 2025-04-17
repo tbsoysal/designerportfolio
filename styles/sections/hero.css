@@ -1,0 +1,50 @@
+.hero {
+    max-width: 1400px;
+    margin-inline: auto;
+    display: flex;
+    padding: 88px 32px;
+    gap: 180px;
+}
+
+/* image */
+.hero img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+/* userinfo */
+.hero__userinfo h1 {
+    font-size: 112px;
+    font-weight: 600;
+    line-height: 125px;
+    margin-bottom: 40px;
+}
+
+.hero__userinfo p {
+    max-width: 85%;
+    color: var(--paragraph-color);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.hero__userinfo .paragraph-1 {
+    margin-bottom: 24px;
+}
+
+/* Email button */
+.hero__email {
+    display: none;
+}
+
+.hero__email .link {
+    display: block;
+    font-weight: 600;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 12px 24px;
+    border-radius: 100px;
+    width: 250px;
+    text-decoration: none;
+}
