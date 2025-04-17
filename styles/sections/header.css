@@ -4,7 +4,7 @@
     max-width: 1400px;
     margin-inline: auto;
     background-color: var(--white-color);
-    padding: 20px 32px;
+    padding: 18px 32px;
 }
 
 .header > * {
@@ -20,7 +20,7 @@
 
 /* Name */
 .header__name {
-    padding: 12px 0px;
+    padding: 8px 0px;
 }
 
 .header__name a {

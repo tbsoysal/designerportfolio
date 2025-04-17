@@ -74,7 +74,7 @@
 /* Media Queries (mobile) */
 @media (max-width: 810px) {
     .hero {
-        padding: 24px 20px 40px 20px;
+        padding: 20px 20px 40px 20px;
         flex-direction: column;
         gap: 40px;
     }
