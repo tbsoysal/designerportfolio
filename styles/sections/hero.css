@@ -40,13 +40,12 @@
 }
 
 .hero__email .link {
-    display: block;
+    display: inline-block;
     font-weight: 600;
     background-color: var(--black-color);
     color: var(--white-color);
     padding: 12px 24px;
     border-radius: 100px;
-    width: 250px;
     text-decoration: none;
 }
 
