@@ -19,6 +19,7 @@
     font-weight: 600;
     line-height: 125px;
     margin-bottom: 40px;
+    letter-spacing: -1px;
 }
 
 .hero__userinfo p {
@@ -47,4 +48,49 @@
     border-radius: 100px;
     width: 250px;
     text-decoration: none;
+}
+
+/* Media Queries (tablet) */
+@media (max-width: 1400px) {
+    .hero {
+        max-width: 810px;
+        gap: 80px;
+    }
+
+    .hero img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero__userinfo h1 {
+        font-size: 72px;
+        line-height: 87px;
+    }
+
+    .hero__userinfo p {
+        max-width: 100%;
+    }
+}
+
+/* Media Queries (mobile) */
+@media (max-width: 810px) {
+    .hero {
+        padding: 40px 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .hero__userinfo h1 {
+        font-size: 64px;
+        line-height: 77px;
+        margin-bottom: 20px;
+    }
+
+    .hero__userinfo p {
+        margin-bottom: 20px;
+    }
+
+    .hero__email {
+        display: block;
+    }
 }
