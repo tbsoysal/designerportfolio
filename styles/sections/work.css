@@ -25,7 +25,7 @@ h2 {
 
 img {
     max-width: 652px;
-    height: 100%;
+    height: auto;
     border-radius: 40px;
 }
 
@@ -92,6 +92,7 @@ img {
 }
 
 .mobilenames {
+    display: none;
     font-size: 24px;
     font-weight: 600;
     margin-top: 12px;
@@ -150,6 +151,10 @@ img {
 
     .mobilelinks {
         pointer-events: all;
+    }
+
+    .mobilenames {
+        display: block;
     }
 
 }
