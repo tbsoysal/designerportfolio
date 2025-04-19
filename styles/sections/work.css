@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .worksection {
     max-width: 1400px;
     margin-inline: auto;
@@ -6,8 +13,12 @@
 
 /* Cards Container */
 .worksection__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .card {
@@ -46,15 +57,24 @@ img {
     background-color: rgba(20, 20, 20, 0.8);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+    -o-transition: opacity 0.3s ease, visibility 0.3s ease;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .hovercontainer__content {
     padding: 48px;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .cardname {
@@ -72,6 +92,8 @@ img {
 
 .link {
     display: inline-block;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     text-decoration: none;
     padding: 12px 24px;
@@ -115,7 +137,9 @@ img {
     }
 
     .card {
-        flex: 1;
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
     }
 
     img {
@@ -134,7 +158,10 @@ img {
     }
 
     .worksection__cards {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .card {
