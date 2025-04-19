@@ -45,6 +45,7 @@ img {
     bottom: 0;
     background-color: rgba(20, 20, 20, 0.8);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
@@ -64,7 +65,7 @@ img {
 }
 
 .cardparagraph {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--gray-color-300);
 }
