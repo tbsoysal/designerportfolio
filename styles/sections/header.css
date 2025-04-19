@@ -35,7 +35,7 @@ header {
 }
 
 .header__name a:hover {
-    color: var(--hover-gray);
+    color: var(--gray-color-500);
 }
 
 /* menu */
@@ -52,7 +52,7 @@ header {
 }
 
 .header__menu li a:hover {
-    color: var(--hover-gray);
+    color: var(--gray-color-500);
 }
 
 /* email button */
@@ -72,7 +72,7 @@ header {
 }
 
 .header__email .link:hover {
-    background-color: var(--hover-gray);
+    background-color: var(--gray-color-500);
 }
 
 /* media queries */

@@ -24,7 +24,7 @@
 
 .hero__userinfo p {
     max-width: 85%;
-    color: var(--paragraph-color);
+    color: var(--gray-color-800);
     font-size: 20px;
     line-height: 26px;
     font-weight: 600;
