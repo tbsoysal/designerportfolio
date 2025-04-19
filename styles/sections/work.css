@@ -26,6 +26,7 @@ h2 {
 img {
     max-width: 652px;
     height: 100%;
+    border-radius: 40px;
 }
 
 /* Cards Hover Screen */
@@ -82,4 +83,72 @@ img {
 
 .link:hover {
     background-color: var(--gray-color-300);
+}
+
+.mobilelinks {
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.mobilenames {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 12px;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+@media (max-width: 1400px) {
+    .worksection {
+        padding: 96px 32px 48px 32px;
+    }
+
+    .worksection h2 {
+        font-size: 72px;
+        margin-bottom: 80px;
+    }
+
+    .worksection__cards {
+        gap: 32px;
+    }
+
+    .card {
+        flex: 1;
+    }
+
+    img {
+        max-width: 100%;       
+    }
+}
+
+@media (max-width: 810px) {
+    .worksection {
+        padding: 80px 20px 40px 20px;
+    }
+
+    .worksection h2 {
+        font-size: 64px;
+        margin-bottom: 48px;
+    }
+
+    .worksection__cards {
+        flex-direction: column;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+
+    img {
+        border-radius: 20px;
+    }
+
+    .hovercontainer {
+        display: none;
+    }
+
+    .mobilelinks {
+        pointer-events: all;
+    }
+
 }
