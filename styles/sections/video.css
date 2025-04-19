@@ -1,0 +1,25 @@
+@keyframes scaledown {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.9);
+    }
+}
+
+figure {
+    max-width: 100vw;
+    animation: scaledown linear;
+    animation-timeline: view();
+}
+
+video {
+    width: 100%;
+    border-radius: 40px;
+}
+
+@media (max-width: 810px) {
+    video {
+        border-radius: 28px;
+    }
+}

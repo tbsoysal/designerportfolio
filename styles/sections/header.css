@@ -1,9 +1,16 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
 .header {
     display: flex;
     align-items: center;
     max-width: 1400px;
     margin-inline: auto;
-    background-color: var(--white-color);
     padding: 18px 32px;
 }
 

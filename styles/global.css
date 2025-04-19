@@ -4,7 +4,7 @@
     --black-color: #000;
     --white-color: #fff;
     --hover-gray: #667085;
-    --paragraph-color: #344054;
+    --paragraph-color: #1D2939;
 }
 
 * {
@@ -15,5 +15,5 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 400vh;
 }

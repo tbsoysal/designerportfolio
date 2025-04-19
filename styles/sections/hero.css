@@ -2,8 +2,8 @@
     max-width: 1400px;
     margin-inline: auto;
     display: flex;
-    padding: 88px 32px;
-    gap: 180px;
+    padding: 72px 32px;
+    gap: 232px;
 }
 
 /* image */
@@ -17,7 +17,7 @@
 .hero__userinfo h1 {
     font-size: 112px;
     font-weight: 600;
-    line-height: 125px;
+    line-height: 120px;
     margin-bottom: 40px;
     letter-spacing: -1px;
 }
@@ -26,7 +26,7 @@
     max-width: 85%;
     color: var(--paragraph-color);
     font-size: 20px;
-    line-height: 28px;
+    line-height: 26px;
     font-weight: 600;
 }
 
@@ -54,6 +54,7 @@
     .hero {
         max-width: 810px;
         gap: 80px;
+        padding: 64px 32px;
     }
 
     .hero img {
@@ -63,7 +64,7 @@
 
     .hero__userinfo h1 {
         font-size: 72px;
-        line-height: 87px;
+        line-height: 84px;
     }
 
     .hero__userinfo p {
@@ -74,7 +75,7 @@
 /* Media Queries (mobile) */
 @media (max-width: 810px) {
     .hero {
-        padding: 20px 20px 40px 20px;
+        padding: 20px 20px 64px 20px;
         flex-direction: column;
         gap: 40px;
     }
@@ -82,11 +83,15 @@
     .hero__userinfo h1 {
         font-size: 64px;
         line-height: 68px;
+        margin-bottom: 32px;
+    }
+
+    .hero__userinfo .paragraph-1 {
         margin-bottom: 20px;
     }
 
-    .hero__userinfo p {
-        margin-bottom: 20px;
+    .hero__userinfo .paragraph-2 {
+        margin-bottom: 40px;
     }
 
     .hero__email {
