@@ -35,6 +35,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
+    color: var(--gray-color-800)
 }
 
 .about__paragraphContainer div h3 {
