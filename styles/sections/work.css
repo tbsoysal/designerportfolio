@@ -8,7 +8,7 @@
 .worksection {
     max-width: 1400px;
     margin-inline: auto;
-    padding: 96px 32px;
+    padding: 96px 32px 48px 32px;
 }
 
 /* Cards Container */

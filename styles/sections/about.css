@@ -1,7 +1,7 @@
 .about {
     max-width: 1400px;
     margin-inline: auto;
-    padding: 96px 32px;
+    padding: 48px 32px;
 }
 
 .about h1 {
@@ -48,9 +48,6 @@
 
 /* Media Queries */
 @media (max-width: 1400px) {
-    .about {
-        padding: 48px 32px;
-    }
 
     .about h1 {
         font-size: 72px;
