@@ -1,3 +1,7 @@
+#about {
+    scroll-margin-top: 40px;
+}
+
 .about {
     max-width: 1400px;
     margin-inline: auto;
