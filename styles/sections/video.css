@@ -1,11 +1,15 @@
 figure {
     max-width: 100vw;
     padding-inline: 8px;
+    overflow: hidden;
 }
 
 video {
     width: 100%;
     border-radius: 40px;
+    transform: scale(1.24);
+    position: relative;
+    top: -2.5px;
 }
 
 @media (max-width: 810px) {
