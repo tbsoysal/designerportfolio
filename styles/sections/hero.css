@@ -1,3 +1,27 @@
+@keyframes smoothShowup {
+    from {
+        opacity: 0;
+        top: 22px;
+    }
+
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@keyframes rotateAnimation {
+    from {
+        opacity: 0;
+        transform: rotate(-25deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+
 .hero {
     max-width: 1400px;
     margin-inline: auto;
@@ -11,23 +35,28 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
+    animation: rotateAnimation 0.5s;
 }
 
 /* userinfo */
 .hero__userinfo h1 {
+    position: relative;
     font-size: 112px;
     font-weight: 600;
     line-height: 120px;
     margin-bottom: 40px;
     letter-spacing: -1px;
+    animation: smoothShowup 0.6s;
 }
 
 .hero__userinfo p {
+    position: relative;
     max-width: 85%;
     color: var(--gray-color-800);
     font-size: 20px;
     line-height: 26px;
     font-weight: 600;
+    animation: smoothShowup 0.6s;
 }
 
 .hero__userinfo .paragraph-1 {
